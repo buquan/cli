@@ -17,10 +17,14 @@
     "type": "git",
     "url": "git+https://github.com/buquan/cli.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/buquan/cli/issues"
-  }
+  },
+  "gitHead": "62d1e9eb9f7f20a80c6e80f39c41bdb5087168f8"
 }
