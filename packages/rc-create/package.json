@@ -1,0 +1,49 @@
+{
+  "name": "@buquan/rc-create",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "buquan <1085161116@qq.com>",
+  "homepage": "https://github.com/buquan/cli#readme",
+  "license": "ISC",
+  "main": "lib/rc-create.js",
+  "bin": {
+    "rc-create": "lib/rc-create.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "ejs": "^3.1.6",
+    "execa": "^1.0.0",
+    "fs-extra": "^10.0.0",
+    "globby": "^9.2.0",
+    "inquirer": "^8.2.0",
+    "isbinaryfile": "^4.0.8",
+    "ora": "^4.0.1",
+    "request": "^2.88.2",
+    "rimraf": "^3.0.2",
+    "semver": "^7.3.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buquan/cli.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "bugs": {
+    "url": "https://github.com/buquan/cli/issues"
+  }
+}
