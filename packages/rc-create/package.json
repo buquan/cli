@@ -1,6 +1,6 @@
 {
   "name": "@buquan/rc-create",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "> TODO: description",
   "author": "buquan <1085161116@qq.com>",
   "homepage": "https://github.com/buquan/cli#readme",
@@ -17,7 +17,7 @@
     "lib"
   ],
   "dependencies": {
-    "@buquan/rc-tool": "^0.0.3",
+    "@buquan/rc-tool": "^0.0.4",
     "chalk": "^4.1.2",
     "commander": "^8.3.0",
     "ejs": "^3.1.6",
