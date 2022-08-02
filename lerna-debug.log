@@ -1,0 +1,8 @@
+40 warn complete Waiting for 1 child process to exit. CTRL-C to exit immediately.
+41 error Error: Command failed with exit code 128: git tag @buquan/rc-create@0.0.3 -m @buquan/rc-create@0.0.3
+41 error fatal: tag '@buquan/rc-create@0.0.3' already exists
+41 error     at makeError (/Users/buquan/Desktop/githubs/cli/node_modules/execa/lib/error.js:60:11)
+41 error     at handlePromise (/Users/buquan/Desktop/githubs/cli/node_modules/execa/index.js:118:26)
+41 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+41 error     at async Promise.all (index 0)
+41 error     at async Promise.all (index 0)
