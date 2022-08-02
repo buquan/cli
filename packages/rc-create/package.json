@@ -17,6 +17,7 @@
     "lib"
   ],
   "dependencies": {
+    "@buquan/rc-tool": "0.0.2",
     "chalk": "^4.1.2",
     "commander": "^8.3.0",
     "ejs": "^3.1.6",

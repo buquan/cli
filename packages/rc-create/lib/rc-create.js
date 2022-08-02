@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 // 命令行解析工具
 const program = require('commander');
+const tool = require('@buquan/rc-tool');
+console.log(tool, 'tool');
+console.log(tool.sum(1, 2), 'tool excute');
 
 program.version(require('../package').version).usage('<command> [options]');
 
