@@ -14,10 +14,11 @@
     "test": "__tests__"
   },
   "files": [
+    "template",
     "lib"
   ],
   "dependencies": {
-    "@buquan/rc-tool": "^0.0.6",
+    "@buquan/rc-tool": "^0.0.10",
     "chalk": "^4.1.2",
     "commander": "^8.3.0",
     "ejs": "^3.1.6",
